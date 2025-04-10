@@ -1,7 +1,7 @@
-body /*hello bye MY LITTLE PONY MY LITTLE PONY*/
+body /*bye*/
 {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     height:100vh;
     font-family: Arial;
     background-color: #aaceee;
