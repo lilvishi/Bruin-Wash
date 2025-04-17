@@ -15,7 +15,7 @@
 
   <div class="page">
     <a href="bruinWash.html" class="back-link">&larr; Machine availability</a>
-    <h1 class="location-title">SPROUL HALL</h1>
+    <h1 class="location-title" id="locationTitle">Loading...</h1>
 
     <div class="filters">
       <select class="filter-select">
@@ -82,5 +82,16 @@
       <!-- Repeat as needed -->
     </div>
   </div>
+
+  <script>
+    const building = localStorage.getItem('selectedBuilding');
+    const titleElement = document.getElementById('locationTitle');
+    if (building && titleElement) {
+      titleElement.textContent = building.toUpperCase();
+    } else {
+      titleElement.textContent = 'BUILDING NOT SELECTED';
+    }
+  </script>
+  
 </body>
 </html>

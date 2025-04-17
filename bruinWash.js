@@ -31,3 +31,10 @@ submitFunds.addEventListener('click', () => {
   }
   fundsModal.style.display = 'none';
 });
+
+const buildingSelect = document.getElementById('building');
+
+buildingSelect.addEventListener('change', () => {
+  const selectedBuilding = buildingSelect.value;
+  localStorage.setItem('selectedBuilding', selectedBuilding);
+});
