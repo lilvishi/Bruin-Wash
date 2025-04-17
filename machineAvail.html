@@ -1,12 +1,86 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Machine Availibility</title>
-        <link rel ="stylesheet" href="bruinWash.css">
-    </head>
-    <body>
-        <h1> Bruin Wash</h1>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machine Availability</title>
+  <link rel="stylesheet" href="bruinWash.css">
+</head>
+<body>
+  <!-- Top Nav -->
+  <nav class="top-nav">
+    <div class="nav-left"><span class="menu-icon">☰</span> BruinWash</div>
+    <div class="nav-right"></div>
+  </nav>
 
-    </body>
+  <div class="page">
+    <a href="bruinWash.html" class="back-link">&larr; Machine availability</a>
+    <h1 class="location-title">SPROUL HALL</h1>
+
+    <div class="filters">
+      <select class="filter-select">
+        <option>All</option>
+        <option>Available</option>
+        <option>Unavailable</option>
+      </select>
+      <select class="filter-select">
+        <option>Washers</option>
+        <option>Dryers</option>
+      </select>
+    </div>
+
+    <div class="machines-grid">
+      <!-- Example Cards -->
+      <div class="machine-card busy">
+        <div class="machine-name">Washer 1</div>
+        <div class="machine-status">Time Left: 35:00</div>
+      </div>
+      <div class="machine-card">
+        <div class="machine-name">Washer 2</div>
+        <div class="machine-status status-open">OPEN</div>
+      </div>
+      <div class="machine-card">
+        <div class="machine-name">Washer 3</div>
+        <div class="machine-status status-open">OPEN</div>
+      </div>
+      <div class="machine-card busy">
+        <div class="machine-name">Washer 4</div>
+        <div class="machine-status">Time Left: 35:00</div>
+      </div>
+      <div class="machine-card">
+        <div class="machine-name">Washer 5</div>
+        <div class="machine-status status-open">OPEN</div>
+      </div>
+      <div class="machine-card">
+        <div class="machine-name">Washer 6</div>
+        <div class="machine-status status-open">OPEN</div>
+      </div>
+      <div class="machine-card busy">
+        <div class="machine-name">Washer 7</div>
+        <div class="machine-status">Time Left: 35:00</div>
+      </div>
+      <div class="machine-card">
+        <div class="machine-name">Washer 8</div>
+        <div class="machine-status status-open">OPEN</div>
+      </div>
+      <div class="machine-card">
+        <div class="machine-name">Washer 9</div>
+        <div class="machine-status status-open">OPEN</div>
+      </div>
+      <div class="machine-card busy">
+        <div class="machine-name">Washer 10</div>
+        <div class="machine-status">Time Left: 35:00</div>
+      </div>
+      <div class="machine-card">
+        <div class="machine-name">Washer 11</div>
+        <div class="machine-status status-open">OPEN</div>
+      </div>
+      <div class="machine-card">
+        <div class="machine-name">Washer 12</div>
+        <div class="machine-status status-open">OPEN</div>
+      </div>
+      <!-- Repeat as needed -->
+    </div>
+  </div>
+</body>
 </html>
